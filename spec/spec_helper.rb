@@ -22,7 +22,7 @@ end
 # The Spork.prefork block is run only once when the spork server is started.
 # You typically want to place most of your (slow) initializer code in here, in
 # particular, require'ing any 3rd-party gems that you don't normally modify
-# during development.
+# during dev  elopment.
 #
 # The Spork.each_run block is run each time you run your specs.  In case you
 # need to load files that tend to change during development, require them here.
