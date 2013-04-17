@@ -10,6 +10,7 @@ group :development do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'annotate'
+  gem 'capistrano'
 end
 
 # Gems used only for assets and not required
